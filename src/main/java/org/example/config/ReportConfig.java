@@ -18,10 +18,13 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-@Configuration
-//导入ureport-console-context.xml文件
+/*
+这个必要有否则报表设计页面报错
 @ImportResource("classpath:ureport-console-context.xml")
+*/
+@Configuration
 @Slf4j
+@ImportResource("classpath:ureport-console-context.xml")
 public class ReportConfig {
 
     private DataSource dataSource;

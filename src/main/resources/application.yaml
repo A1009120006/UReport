@@ -18,7 +18,3 @@ spring:
       poolPreparedStatements: true
       maxPoolPreparedStatementPerConnectionSize: 20
       filters: stat,wall,log4j
-ureport:
-  disableFileProvider: true
-  #fileStoreDir: D:/myfile/ureportfiles
-  fileToDbStoreDir: D:/ureportDbfiles
